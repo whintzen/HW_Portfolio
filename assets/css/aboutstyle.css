@@ -92,11 +92,11 @@ hr {
     background: #007bb5;
     color: white;
   }
-
+/* Footer */
   footer {
     background-color:darkgray;
     position: relative;
-    width:60%;
+    width:90%;
     height: 30px;    
     margin-left: 30px;
     padding-bottom: 80px;
