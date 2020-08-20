@@ -15,7 +15,8 @@ html, body {
 body {
   font-size: 15px;
   color: black;
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
+  background-color: lightsteelblue;
 }
 
 /* set the padding for the page */
@@ -53,7 +54,8 @@ a:hover  {
   margin-left: 30px;
   margin-bottom: 0;
   border-style: inset; 
-  background-color: ivory;
+  /* background-color: ivory; */
+  background-color: rgb(165, 151, 182);
   }
 
 hr {
@@ -62,9 +64,16 @@ hr {
  margin-bottom: 20px;
 }
 
+/* set the color of the contact links */
+section ul a {
+  color: antiquewhite;
+}
+
+/* set the font size of the Social Media Letters */
 .social a {
   font-size: 15px;
 }
+
 /* Set the Facebook/LinkedIn effects */
   .fa {
     padding: 20px;
@@ -94,7 +103,8 @@ hr {
   }
 /* Footer */
   footer {
-    background-color:darkgray;
+    /* background-color:darkgray; */
+    background-color:purple;
     position: relative;
     width:90%;
     height: 30px;    
