@@ -24,7 +24,7 @@
   }
   
   .container-fluid {
-    margin-top: 25px;
+    margin-top: 15px;
   }
    
  /* Set the spacing between the links */
@@ -40,6 +40,11 @@
     margin-right: 15px;
     font-size:  15px;
   } 
+
+  .bg-light {
+    background-color: lavender !important;
+  }
+
   /* Change the color of links on hover*/
   a:hover  { 
     background:blue;
@@ -51,8 +56,9 @@
     min-height: 100%;
     overflow: auto;
     padding-bottom: 40px;
-    width: 90%; 
-    margin-top: 30px;
+    width: 90%;
+    margin-top: 145px;
+        /* margin-top: 30px; */
     margin-left: 30px;
     margin-bottom: 0;
     border-style: inset;
@@ -94,10 +100,10 @@
     /* Set a specific color for each brand */
     
     /* Facebook */
-    .fa-facebook {
+    /* .fa-facebook {
       background: #3B5998;
       color: white;
-    }
+    } */
   
     /* LinkedIn */
     .fa-linkedin {
@@ -110,7 +116,7 @@
       background-color:purple;
       position: relative;
       width:90%;
-      height: 30px;    
+      height: 25px;    
       margin-left: 30px;
       padding-bottom: 80px;
       font-size: 20px;
