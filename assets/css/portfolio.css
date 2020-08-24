@@ -12,15 +12,13 @@
   
   body {
     font-size: 15px;
-    color: black;
-    /* background-color: cornsilk; */
-    /* background-color: lightgrey; */
+    color: black;    
     background-color: lightsteelblue;
   }
   
   /* set the padding for the page */
-  .padding{
-  padding: 20px;
+  .padding {
+    padding: 20px;
   }
   
   .container-fluid {
@@ -29,7 +27,7 @@
    
  /* Set the spacing between the links */
 .navbar {
-    padding: 15px;
+    /* padding: 15px; */
     display: block;
     text-decoration: none; 
   } 
@@ -57,20 +55,19 @@
     overflow: auto;
     padding-bottom: 40px;
     width: 90%;
-    margin-top: 145px;
-        /* margin-top: 30px; */
+    margin-top: 145px;     
     margin-left: 30px;
     margin-bottom: 0;
     border-style: inset;
-    background-color: deepskyblue; 
-    /* background-color: ivory; */
-    /* background-color: rgb(165, 151, 182); */
-    }
+    background-color: deepskyblue;    
+  }
   
   hr {
     border-top: 1px solid;
-   margin-top: 10px;
-   margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    margin-left: 15px; 
+    width: 92%; 
   }
   
   /* set the color of the contact links */
@@ -83,43 +80,37 @@
     font-size: 15px;
   }
   
-  /* Set the Facebook/LinkedIn effects */
-    .fa {
-      padding: 20px;
-      font-size: 30px;
-      width: 50px;
-      text-align: center;
-      text-decoration: none;
-    }
+  /* Set the LinkedIn effects */
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
     
     /* Add a hover effect */
-    .fa:hover {
-      opacity: 0.7;
-    }
+  .fa:hover {
+    opacity: 0.7;
+  }
     
-    /* Set a specific color for each brand */
-    
-    /* Facebook */
-    /* .fa-facebook {
-      background: #3B5998;
-      color: white;
-    } */
+    /* Set a specific color for each brand */    
   
     /* LinkedIn */
-    .fa-linkedin {
-      background: #007bb5;
-      color: white;
-    }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
   /* Footer */
-    footer {
-      /* background-color:darkgray; */
-      background-color:purple;
-      position: relative;
-      width:90%;
-      height: 25px;    
-      margin-left: 30px;
-      padding-bottom: 80px;
-      font-size: 20px;
-      text-align: center;
-      clear: both;
-    }
+  footer {
+    background-color:purple;
+    position: relative;
+    width:90%;
+    height: 25px;    
+    margin-left: 30px;
+    padding-bottom: 80px;
+    font-size: 20px;
+    text-align: center;
+    clear: both;
+  }
