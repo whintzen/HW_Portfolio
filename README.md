@@ -42,4 +42,5 @@
 
 ## Link:
 [Deployed Portfolio Project](https://whintzen.github.io/HW_Portfolio/index.html)
+
 [Repository](https://github.com/whintzen/HW_Portfolio)
